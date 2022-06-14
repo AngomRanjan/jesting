@@ -1,0 +1,23 @@
+{
+  "name": "jesting",
+  "version": "1.0.0",
+  "description": "Jest Learning",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngomRanjan/jesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngomRanjan/jesting/issues"
+  },
+  "homepage": "https://github.com/AngomRanjan/jesting#readme",
+  "dependencies": {
+    "jest": "^28.1.1"
+  }
+}
