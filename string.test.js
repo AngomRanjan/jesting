@@ -41,3 +41,15 @@ describe('ReverseDtring', () => {
     }).toThrow('error');
   });
 });
+
+describe('capitalizeString', () => {
+  test('microverse to equal Microverse', () => {
+    expect(capitalize('microverse')).toBe('Microverse');
+  });
+  
+  test('should throw an error if called with a number', () => {
+    expect(() => {
+      capitalize(45);
+    }).toThrow('error');
+  });
+});
