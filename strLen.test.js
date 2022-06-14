@@ -1,4 +1,5 @@
 const stringLength = require('./stringLength');
+const reverseString = require('./reverseString')
 
 test('angom to equal 5', () => {
   expect(stringLength('angom')).toBe(5);
@@ -23,5 +24,15 @@ test('Should throw error if call with empty string', () => {
 test('Should throw error if string length greater than ten', () => {
   expect(() => {
     stringLength('Beyond The Limit');
+  }).toThrow('error');
+});
+
+test('microverse to equal esrevorcim', () => {
+  expect(reverseString('microverse')).toBe('esrevorcim');
+});
+
+test('should throw an error if called with a number', () => {
+  expect(() => {
+    reverseString(45);
   }).toThrow('error');
 });
