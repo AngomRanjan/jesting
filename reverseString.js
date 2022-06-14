@@ -1,9 +1,6 @@
 const reverseString = (string) => {
   if (typeof string === 'string') {
-    if (string === '') {
-      return reverseString;
-    }
-    return string.split('').reverse().join('');
+    return string.split('').reverse().join('') || '';
   }
   throw new Error('error');
 }

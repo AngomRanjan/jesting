@@ -1,5 +1,6 @@
 const stringLength = require('./stringLength');
-const reverseString = require('./reverseString')
+const reverseString = require('./reverseString');
+const capitalize = require('./capitalize');
 
 
 describe('stringLength', () => {
@@ -42,7 +43,7 @@ describe('ReverseDtring', () => {
   });
 });
 
-describe('capitalizeString', () => {
+describe('capitalize String', () => {
   test('microverse to equal Microverse', () => {
     expect(capitalize('microverse')).toBe('Microverse');
   });
